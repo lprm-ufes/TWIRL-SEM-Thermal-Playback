@@ -1,0 +1,1 @@
+java -jar PlaySEM_SER_2.1.0.jar -Dcom.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.fastBoot=true 
