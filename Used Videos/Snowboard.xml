@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:SEM xmlns:ns2="urn:mpeg:mpeg-v:2010:01-SEDL-NS" xmlns:ns1="urn:mpeg:mpeg7:schema:2004" xmlns:ns3="urn:mpeg:mpeg-v:2010:01-SEV-NS" xmlns:ns4="urn:mpeg:mpeg-v:2010:01-CT-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:si="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS" si:timeScale="90000" si:puMode="ancestorsDescendants" si:absTimeScheme="mp7t" xsi:schemaLocation="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-21_schema_files/dia-2nd/XSI-2nd.xsd urn:mpeg:mpeg-v:2010:01-SEV-NS http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-V_schema_files/MPEG-V-SEV.xsd urn:mpeg:mpeg7:schema:2004 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-7_schema_files/mpeg7-v2.xsd">
+<!--Nevoa fria Ativa em 0,1 seg --> <ns2:Effect xsi:type="ns3:LightType" activate="true" intensity-value="100.0" intensity-range="0.0 100.0" si:pts="900000" si:anchorElement="true" ns3:color="urn:mpeg:mpeg-v:01-SI-ColorCS-NS:blue"/>
+
+<!--Vento ambiente Ativo em 5 seg --> <ns2:Effect xsi:type="ns3:WindType" activate="true" intensity-value="70.0" intensity-range="0.0 100.0" si:pts="450000" si:anchorElement="true" />
+<!--Vento ambiente Desativado em 28 seg --><ns2:Effect xsi:type="ns3:WindType" activate="false" si:pts="2520000" si:anchorElement="true"/>
+<!--Nevoa fria Desativada em 29 seg --><ns2:Effect xsi:type="ns3:LightType" activate="false" si:pts="2610000" si:anchorElement="true"/>
+
+</ns2:SEM>
